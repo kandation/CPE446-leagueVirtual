@@ -1,0 +1,20 @@
+//println(matchdata.getPlayerName(2));
+    //println(champions.getNameByID(266));
+
+
+    //println("GameVersion is >> "+getGameVersion(json));
+
+
+    //println(json);
+
+    /*
+    
+     
+     lw.add("1001","item", "img");
+     lw.add("6111","mastery", "img");
+     lw.add(matchID,"timeline", "json");
+     
+     lw.add("champion","data", "json");
+     lw._loadRes();
+     */
+    //file_list.showList();
