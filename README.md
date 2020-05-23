@@ -21,7 +21,7 @@ __169196324__
 
 - Next, when filled then we pressed "ENTER" for inserted serching data
 
-- Confrim your Input
+- Confirm your Input
 - Last, waiting a little 
 - when finished we should got analized data  i.e. Gold Earnned in match,
  player build (item), KDA (Kill/ Dead /Assist), and map line (position die in map)
@@ -32,7 +32,7 @@ You can get new view more than your enermy and you can analize your playe style
 
 
 ## has bug!?
-getupdate forme my github : 
+getupdate form my github : 
 `https://github.com/kandation/leagueVirtual`
 
 ---------------------------
@@ -78,4 +78,8 @@ __169196324__
 อาจจะทำให้ผลการแข่ง และสไตลการเล่นคุณและคนรอบข้าง ... ลองสังเกตแล้วเอาไปปรับเป็นไตลคุณเองในแมชต่อไป
 
 ------------------
+
+# Preview
+
+[preview](Docs/screenshot.jpg)
 
