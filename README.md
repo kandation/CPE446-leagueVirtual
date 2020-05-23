@@ -1,21 +1,21 @@
-﻿League of legend Match Analysis
+# League of legend Match Analysis
 
-Request Library 
-minim (import ddf.minim.*;)
-> for audio sound
+## Request Library 
+- minim (import ddf.minim.*;)  # for audio sound
 
 
-Instruction
+## Instruction
 - Run sketch_601114a.pde
 - Fill SummonerName (in-game name) OR MatchID (You can get form replay filename or Game client -> match history -> copy between slash ("/");
-ex https://matchhistory.th.leagueoflegends.com/th/#match-details/TH/169196324/144857395?tab=overview
+
+`ex https://matchhistory.th.leagueoflegends.com/th/#match-details/TH/169196324/144857395?tab=overview`
 
 we get
-...s/TH/{__169196324___}/14485...
+...s/TH/{__**169196324**__}/14485...
 
 
 and last weg got
-169196324
+__169196324__
 
 \w/\w/\w/\w/\w/\w/\w/
 
@@ -27,42 +27,41 @@ and last weg got
  player build (item), KDA (Kill/ Dead /Assist), and map line (position die in map)
 
 
-Benefit
+## Benefit
 You can get new view more than your enermy and you can analize your playe style
 
 
-has bug!?
+## has bug!?
 getupdate forme my github : 
-https://github.com/kandation/leagueVirtual
+`https://github.com/kandation/leagueVirtual`
 
 ---------------------------
 
-โปรแกรมวิเคราะห์คู่การแข่งขันในเกม league of legend
-ต้องการ
-- ไลบรารี่เสียงของ minim (import ddf.minim.*;)
-> ที่จริงก็ // ปิดไปก็ได้นะ
+# โปรแกรมวิเคราะห์คู่การแข่งขันในเกม league of legend
+## ต้องการ
+- ไลบรารี่เสียงของ minim (import ddf.minim.*;) # ที่จริงก็ // ปิดไปก็ได้นะ
 - Internet (ต้องทำการโหลดไฟล์ทุกครั้ง แต่ถ้าเน็ตไม่มี ก็ไม่ต้องกังวัล เพราะ โปรแกรมโหลดทุกอย่างมาเก็บไว้แล้ว สามารถใช้เลข MatchID เดิมเปิดได้เลย)
  
-วิธีใช้
+## วิธีใช้
 - เปิด sketch_601114a.pde
 - กรอก ชื่อซัมมอนเนอร์ (ชื่อในเกม) ของใครก็ได้ (หรือไม่มีอยู่จริงก็ได้)  หรือ ถ้ามี replay ไฟล์เก่าๆ ก็สามารถ
- เอาตัวเลขในชื่อไฟล์นั้น มาใส่ได้ (เช่น TH-169031564.rofl) หรือ ถ้าเปิด ประวัติการแข่งแล้วรู้สึกหงุดหงิดกับข้อมูล
+ เอาตัวเลขในชื่อไฟล์นั้น มาใส่ได้ (เช่น TH-__169031564__.rofl) หรือ ถ้าเปิด ประวัติการแข่งแล้วรู้สึกหงุดหงิดกับข้อมูล
 ที่เปรียบเทียบยาก ก็สามารถเอาเลขตรงกลาง จากลิงก์นั้น มาใส่ได้
 เช่น 
 
-https://matchhistory.th.leagueoflegends.com/th/#match-details/TH/169196324/144857395?tab=overview
+`https://matchhistory.th.leagueoflegends.com/th/#match-details/TH/169196324/144857395?tab=overview`
 
-สังเกตตรง
+**สังเกตตรง**
 ...s/TH/{__169196324___}/14485...
 
 นี่มันเลขวิเศษ เราก็เอามันมากรอกใส่ได้เลย
-169196324
+__169196324__
 
 \w/\w/\w/\w/\w/\w/\w/
 
-พอเลือกได้ว่าอยากใส่ชื่อ หรือ เลขแมชแข่ง ไปแล้ว ก็กด "ENTER" เพื่อดำเนินการต่อไป
+พอเลือกได้ว่าอยากใส่ชื่อ หรือ เลขแมชแข่ง ไปแล้ว ก็กด `"ENTER"` เพื่อดำเนินการต่อไป
 
-ถ้าอยากจะแก้ ก็กด ปุ่มแดงๆ ไปแก้ละ
+ถ้าอยากจะแก้ ก็กด `ปุ่มแดงๆ` ไปแก้ละ
 
 
 - รอ มันโหลดข้อมูลภาพจากเชริฟเวอร์สักแปป (ขั้นตอนนี้ ถ้าเน็ตหลุด มันจะเตะออก ต้องเริ่มทำใหม่ตั้งแต่ต้น T_T)
