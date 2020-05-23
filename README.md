@@ -81,5 +81,5 @@ __169196324__
 
 # Preview
 
-[Docs/Screenshot.jpg](Docs/Screenshot.jpg)
+![Docs/Screenshot.jpg](Docs/Screenshot.jpg)
 
